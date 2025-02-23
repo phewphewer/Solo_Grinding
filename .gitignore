@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Environment files
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# System files
+.DS_Store   # macOS specific
+Thumbs.db   # Windows specific
+
+# IDE/editor config folders
+.vscode/     # VSCode settings
+.idea/       # JetBrains IDEs (IntelliJ, WebStorm)
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories (for certain package managers)
+.pnp/
+.pnp.js
+
+# Coverage directory for test coverage reports
+coverage/
+
+# npm package lock files (if you prefer to ignore them, but usually you keep them)
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js (if you're using Next.js framework)
+.next/
+out/
+
+# Gatsby (if you're using Gatsby framework)
+.cache/
+public/
+
+# Svelte (if you're using Svelte)
+.svelte/
+
+# Docker
+.docker/
+Dockerfile
+docker-compose.yml
